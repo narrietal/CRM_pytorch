@@ -1,5 +1,0 @@
-include README.md
-include LICENSE
-include CRM_pytorch/*.py
-exclude *.pyc
-exclude __pycache__/

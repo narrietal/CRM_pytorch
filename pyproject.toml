@@ -1,0 +1,18 @@
+[project]
+name = "CRM_pytorch"
+version = "0.1.1"
+description = "A non-official implementation of the Complex Ratio Mask (CRM) technique as a Pytorch module."
+readme = "README.md"
+requires-python = ">=3.6"
+authors = [
+  { name = "Nicolas Arrieta Larraza", email = "n.arrieta.larraza@gmail.com" }
+]
+dependencies = ["torch>=2.5.0"]
+license = { text = "MIT" }
+
+[project.urls]
+Homepage = "https://github.com/narrietal/CRM_pytorch"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
